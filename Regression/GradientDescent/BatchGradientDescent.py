@@ -24,7 +24,7 @@ def gradient_descent_2(alpha, x, y, numIterations):
         theta = theta - alpha * gradient  # update
     return theta
 
-if __name__ == '__main__':
+def test():
 
     x, y = make_regression(n_samples=100, n_features=1, n_informative=1, 
                         random_state=0, noise=35) 
@@ -40,3 +40,6 @@ if __name__ == '__main__':
     pylab.plot(x,y_predict,'k-')
     pylab.show()
     print ("Done!")
+
+if __name__ == '__main__':
+    test()
