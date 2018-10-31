@@ -2,7 +2,7 @@
 """
 Created on Fri Oct 19 13:25:11 2018
 
-@author: chris.gong
+  Gradient Descent 
 """
 
 import numpy as np

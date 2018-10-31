@@ -2,7 +2,7 @@
 """
 Created on Wed Oct 31 15:01:35 2018
 
-@author: chris.gong
+Logistic Regression
 """
 
 #import pandas
