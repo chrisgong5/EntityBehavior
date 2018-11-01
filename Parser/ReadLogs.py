@@ -14,7 +14,10 @@ def read_log(filename):
 
     sers = []
     #for line in test_string.split('\n'):
-    for line in open(filename, 'r'):
+    #the log is utf-8 format
+    #python2.7 for line in open(filename, 'r'):
+    #python3.7 requires encoding parameter
+    for line in open(filename, mode="r", encoding="utf-8"):
         ret = re.match(pattern_head, line)
         if not ret:
             # skip the empty lines
